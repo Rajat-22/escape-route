@@ -1,0 +1,61 @@
+name: 🐛 Bug report
+description: Something in Escape-Route is broken or behaving unexpectedly
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please fill in the details below.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug, including the route request you submitted.
+      placeholder: I asked for a 3-day trip from Manali with cafes and treks, and...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the planner
+        2. Set starting city to ...
+        3. Click Generate Escape Route
+        4. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      options:
+        - Itinerary generation (AI / Gemini)
+        - Interactive map & route rendering
+        - Planner form
+        - Saved escapes
+        - Social preview / metadata
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser & OS
+      placeholder: Chrome 130 on Windows 11
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate
+          required: true
+        - label: I am on the latest deployment / commit
+          required: true
