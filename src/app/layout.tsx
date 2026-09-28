@@ -17,7 +17,7 @@ const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
   "https://escape-route-beryl.vercel.app";
 
-const TITLE = "Escape-Route";
+const TITLE = "Escape-Route — AI Travel Itinerary Planner & Live Route Map";
 const DESCRIPTION =
   "Generate a day-by-day travel itinerary with AI, then explore it on an interactive map with real road-following routes. Free trip planner for temples, treks, cafes, beaches and more.";
 

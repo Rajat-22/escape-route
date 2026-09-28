@@ -74,7 +74,7 @@ Every stop is plotted on a **live interactive map** with **real road-following g
 
 ```bash
 git clone <your-repo-url>
-cd mapmyescape
+cd escape-route
 npm install
 ```
 

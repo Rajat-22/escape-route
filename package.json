@@ -2,6 +2,27 @@
   "name": "escape-route",
   "version": "0.1.0",
   "private": true,
+  "description": "AI travel itinerary generator with real-time route visualization on an interactive map. Next.js + Gemini + Leaflet + OSRM.",
+  "keywords": [
+    "ai-itinerary-generator",
+    "travel-route-planner",
+    "trip-planner",
+    "interactive-map",
+    "nextjs",
+    "gemini-ai",
+    "leaflet",
+    "osrm",
+    "geospatial",
+    "route-visualization"
+  ],
+  "homepage": "https://escape-route-beryl.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rajat-22/escape-route.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rajat-22/escape-route/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
